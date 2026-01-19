@@ -165,10 +165,10 @@
     
     % --- Opción para tres autores ---
 
-            \begin{tabular}{c@{\hspace{3em}}c@{\hspace{3em}}c}
+            \resizebox{\textwidth}{!}{\begin{tabular}{c@{\hspace{3em}}c@{\hspace{3em}}c}
                 NOMBRE1\textsuperscript{#MESA} & NOMBRE2\textsuperscript{#MESA} & NOMBRE3\textsuperscript{#MESA}\\ 
              	\href{mailto:CORREO1}{\footnotesize\color{principaluno}\texttt{CORREO1}} & \href{mailto:CORREO2}{\footnotesize\color{principaluno}\texttt{CORREO2}} & \href{mailto:CORREO3}{\footnotesize\color{principaluno}\texttt{CORREO3}}
-            \end{tabular}
+            \end{tabular}}
     
     % --- Opción para cuatro autores ---
 
